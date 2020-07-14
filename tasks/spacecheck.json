@@ -1,0 +1,16 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Another task to check space on Linux or Windows targets",
+  "input_method": "environment",
+  "parameters": {
+    "file_system": {
+      "description": "A single file system to check?",
+      "type": "Optional[String]"
+    },
+    "delay": {
+      "description": "A delay before running the check?",
+      "type": "Optional[Integer]"
+    }
+  }
+}
